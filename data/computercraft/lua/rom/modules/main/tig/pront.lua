@@ -1,3 +1,9 @@
+--This is a stupid idea, but it basically prints a new letter
+--every time you call the function, meaning you can "trace"
+--with print statements by counting how many calls you should have gotten.
+
+--It's dumb. Don't bother using it.
+
 local alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 local function createPronter()

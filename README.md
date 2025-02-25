@@ -8,7 +8,7 @@ A wrapper for injecting custom behaviours onto peripherals and giving more ways 
 
 Matches based on the peripheral's type, and pulls in required functions for that peripheral type from `tig.peripherals.*`
 
-Functions are wrapped in a way that avoids the use of : syntax, meaning they behave like ordinary functions.
+Functions are wrapped in a way that avoids the use of : syntax, meaning they behave like ordinary functions which retain access to their "self" context without needing to provide it in the call.
 
 ## tig.files
 

@@ -4,7 +4,7 @@ A datapack of programs and functions for use in my Computercraft projects
 
 ## tig.inv
 
-A wrapper for injecting custom behaviours onto peripherals and giving more ways to .
+A wrapper for injecting custom behaviours onto peripherals.
 
 Matches based on the peripheral's type, and pulls in required functions for that peripheral type from `tig.peripherals.*`
 
